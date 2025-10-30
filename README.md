@@ -1,44 +1,72 @@
-💬 InsightPulse:
-By simply uploading a CSV file of reviews, the app instantly analyzes tone (Positive, Neutral, or Negative) and visualizes key trends through interactive charts.
-The name InsightPulse comes from the idea of feeling the pulse of user feedback: Capturing insights in real time to understand what users truly feel about a product.
+💬 InsightPulse
+
+-By simply uploading a CSV file of reviews, the app instantly analyzes tone (Positive, Neutral, or Negative) and visualizes key trends through interactive charts.
+
+-The name InsightPulse comes from the idea of feeling the pulse of user feedback:Capturing insights in real time to understand what users truly feel about a product.
 
 🧠 Why I Built This
-During my 6th semester, I noticed how companies often collect tons of user feedback but struggle to interpret it quickly.
-So I built InsightPulse: A lightweight tool that translates raw text into data-driven insights within seconds.
+
+-During my 6th semester, I noticed how companies often collect tons of user feedback but struggle to interpret it quickly.
+
+-So I built InsightPulse: A lightweight tool that translates raw text into data-driven insights within seconds.
 
 🚀 Features
-1)Upload any CSV file with a Review column
-2)Automatic Sentiment Detection (Positive / Neutral / Negative)
-3)Interactive Dashboards with charts and metrics
-4)Trend Insights showing sentiment changes over time
-5)Simple, clean Microsoft-style interface
 
-💡Working of InsightPulse
-1)Upload Data – The user uploads a CSV file containing customer reviews.
-2️)Sentiment Analysis – Each review is analyzed using TextBlob to detect whether it’s positive, negative, or neutral.
-3️)Categorization – Reviews are automatically grouped by sentiment.
-4️)Visualization – The app displays metrics and a bar chart showing sentiment distribution.
-5️)Instant Insights – Product teams can instantly see what users like or dislike — no manual analysis needed.
+-Upload any CSV file containing a Review column
+
+-Automatic Sentiment Detection (Positive / Neutral / Negative)
+
+-Interactive Dashboard showing sentiment distribution
+
+-Trend Insights highlighting sentiment changes over time
+
+-Simple, clean Microsoft-style interface
+
+💡 Working of InsightPulse
+
+-Upload a CSV file containing customer reviews
+
+-Each review is analyzed using TextBlob for sentiment polarity
+
+-Sentiments are classified as Positive, Negative, or Neutral
+
+-Dashboard displays metrics and bar charts for each sentiment group
+
+-Provides quick, actionable insights for product and marketing teams
 
 🛠️ Technologies Used
-1)Python – for data processing and sentiment analysis
-2)Streamlit – for interactive web app and dashboard
-3)Pandas – for handling and cleaning user feedback data
-4)TextBlob – for sentiment classification
-5)Matplotlib / Plotly – for visualization of sentiment trends
 
-⚙️ How to Run Locally (Commands)
-git clone https://github.com/Shriya-23/InsightPulse.git
-cd InsightPulse
-pip install -r requirements.txt
-streamlit run app.py
+-Python – data processing & sentiment analysis
+
+-Streamlit – interactive web app & dashboard
+
+-Pandas – data handling and preprocessing
+
+-TextBlob – natural language sentiment classification
+
+-Matplotlib / Plotly – visualization of sentiment trends
+
+⚙️ How to Run Locally
+
+-Clone the repository: git clone https://github.com/Shriya-23/InsightPulse.git
+
+-Navigate into the project: cd InsightPulse
+
+-Install required libraries: pip install -r requirements.txt
+
+Run the Streamlit app: streamlit run app.py
+
+-Open the app in your browser → http://localhost:8501
 
 ☁️ Live Demo
-🚀 Try it here: https://insightpulse23.streamlit.app/
+
+🚀 Try it live here → https://insightpulse23.streamlit.app/
+
 (Deployed using Streamlit Cloud)
 
-💼 About Me Hi! 
-I’m Shriya Sharma, a Computer Science student passionate about building practical, data-driven solutions that connect technology with real-world impact.
-I enjoy creating simple, meaningful tools that help turn insights into smarter decisions.
+💼 About Me
 
-Then open 👉 http://localhost:8501
+ Hi! I’m Shriya Sharma,A Computer Science student passionate about building practical, data-driven solutions.
+
+I enjoy creating simple, meaningful tools that connect technology, users, and real-world impact.
+
