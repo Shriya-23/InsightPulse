@@ -58,12 +58,6 @@ Run the Streamlit app: streamlit run app.py
 
 -Open the app in your browser → http://localhost:8501
 
-☁️ Live Demo
-
-🚀 Try it live here → https://insightpulse23.streamlit.app/
-
-(Deployed using Streamlit Cloud)
-
 💼 About Me
 
  Hi! I’m Shriya Sharma,A Computer Science student passionate about building practical, data-driven solutions.
