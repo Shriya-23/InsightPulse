@@ -10,6 +10,16 @@
 
 -So I built InsightPulse: A lightweight tool that translates raw text into data-driven insights within seconds.
 
+🔹Problems InsightPulse Solves
+
+-Scattered User Feedback: Companies collect thousands of reviews across platforms but struggle to quickly analyze what users actually feel.
+
+-Slow Decision-Making: Product managers and consultants often rely on manual reading or external tools, delaying response to user sentiment trends.
+
+-Lack of Actionable Insights: Traditional reports show data, not emotions — InsightPulse converts raw text into clear sentiment-driven insights.
+
+-No Lightweight Solution: Existing analytics tools are complex or paid; InsightPulse is a simple, open-source solution that gives real-time understanding of customer mood.
+
 🚀 Features
 
 -Upload any CSV file containing a Review column
